@@ -1,58 +1,41 @@
-console.log("Hello World")
-
-console.table(
-    { id: 1, tarefa: "estudar JS" },
-    { id: 2, tarefa: "praticar Código" }
-)
-
-console.group("Grupo  de logs")
-console.log("Log 1")
-console.log("Log 2")
-console.groupEnd()
-
-console.time("Timer")
-
-if ( 1 == 2){
-    console.log("nao")
-}
-console.timeEnd("Timer")
-
-//comentario
-
 /*
-    asas
+console.log("Olá");
+console.info("O site vai explodir");
+console.warn("Aviso");
+console.error("Erro");
+
+//Tabelas
+console.table([
+    { id: 1, tarefa: "Estudar Js"}, 
+    { id: 2, tarefa: "Praticar Js"}
+]);
+
+// Agrupamento 
+console.group("Grupo de logs");
+console.log("Log 1");
+console.log("Log 2");
+console.groupEnd();
+
+//Medição de tempo
+console.time("Timer");
+//algum processamento 
+console.timeEnd('Timer');
 */
 
-var antigo = "aaaa"
+//variaveis let
 
-let variavelMutavel = "valor que pode ser alterado"
+let texto = "Olá"
 
-const variavelImutavel= " valor que nao pode ser alterado"
-
-variavelMutavel = 1
-
-console.log(variavelMutavel)
-
-variavelImutavel = 1 
-
-console.log(variavelImutavel)
-
-//tipos de dados primitivos
-
-let texto = "texto"
-console.log(typeof texto)
-
-let numero = 0
+let numero = 42
 
 let isCompleted = false
 
-let semValor
+let semValor;
 
 let nulo = null
 
-let uniqueId = Symbol
+let uniqueId = Symbol ("id")
 
-let bigNumero = 999999999999n
+let bigNumero = 99999999999999n;
 
-let hoje = new Date()
-console.log(hoje)
+console.log(texto, typeof texto); 
