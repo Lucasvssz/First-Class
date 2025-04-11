@@ -100,3 +100,52 @@ console.log()
     console.log(pattern.test("+55(11)5514-2689"))*/
 
 
+    //Aula 3
+
+/*let trabalhoFeito = true; 
+
+if (trabalhoFeito) { 
+  console.log("o trabalho foi feito");
+}*/
+
+
+
+
+/*let prioridade = 3;
+console.log("Qual nível:")
+
+if (prioridade === 1) {
+  console.log("Prioridade Baixa");
+} else if (prioridade === 2) {
+  console.log("Prioridade moderada");
+} else if (prioridade === 3) {
+  console.log("Prioridade Alta");
+} else {
+  console.log("Prioridade desconhecida");
+}*/
+
+
+
+/*let diaSemana = new Date().getDay(); // 0: Domingo, 1: Segunda, etc.
+
+switch (diaSemana) {
+  case 0:
+    console.log("Domingo");
+    break;
+  case 1:
+    console.log("Segunda-feira");
+    break;
+  // ...
+  default:
+    console.log("Dia inválido");
+    break;
+}*/
+
+
+/*let contador = 0;
+while (contador < 5) {
+  console.log("Contagem:", contador);
+  contador++;
+}*/
+
+

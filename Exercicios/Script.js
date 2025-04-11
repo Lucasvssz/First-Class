@@ -68,5 +68,54 @@ prioridade = 5;
 console.log("Valor máximo 5:", prioridade);*/
 
 
+//Exercicios da segunda aula
+
+//exercicio 1
+/*let nivelDeAcesso = 5;
+
+if (nivelDeAcesso === 2) { 
+    console.log("Acesso parcial")
+
+} else if (nivelDeAcesso === 3) {
+    console.log("Acesso total")
+
+} else{ 
+    console.log("Acesso negado")
+}*/
+
+
+
+//exercicio 2
+/*let nota = 4
+
+switch (nota) {
+    case 10: 
+        console.log("Nota máxima")
+        break;
+    case 9:
+    case 8: 
+        console.log("Muito bom")
+        break;
+    case 7:
+    case 6: 
+        console.log("Bom")
+        break;
+    case 5: 
+        console.log("Regular")
+        break;
+    default: 
+        console.log("Nota insuficiente")
+        break;}
+*/
+
+
+//exercicio 3
+
+
+
+
+
+
+
 
 
