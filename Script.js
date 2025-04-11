@@ -92,4 +92,11 @@ console.log()
     contador++;
   }*/
 
-  
+
+/*let pattern = /^\+55\(\d{2}\)\d{4,5}\-\d{4}$/;
+
+    console.log(pattern.test("+55(11)9817-3542"))
+
+    console.log(pattern.test("+55(11)5514-2689"))*/
+
+
